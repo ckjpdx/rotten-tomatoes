@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  overflow: auto;
+}
+table, th, tr {
+  border: 1px solid lightgray;
+}
+.userForm {
+  width: 50%;
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+.userForm label, .userForm input {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+}
+.output {
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+input {
+  padding: 12px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="csS/styles.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Squishy Zucchini</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="userForm">
+        <label>Movie Name</label>
+        <input id="title" type="text" placeholder="Enter your movie here">
+        <label>Year Released</label>
+        <input id="year" type="text" placeholder="Enter the year it was released">
+        <label>Squishy Zucchini Rating</label>
+        <input id="rating" type="text" placeholder="Enter rating">
+        <button type="submit" class="button">Add this!</button>
+      </form>
+      <div class="output">
+        <h3>Your List</h3>
+        <table id="table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Year</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody id="tlc">
+            <!-- DONT GO CHASING WATERFALLS -->
+          </tbody>
+        </table>
+        <button id="sort" type="button">Sort Results</button>
+      </div>
+    </div>
+  </body>
+</html>
