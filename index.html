@@ -7,10 +7,11 @@
     <title>Squishy Zucchini</title>
   </head>
   <body>
+    <header>
+      <img class="squish" src="img/squish.gif" alt="squish">
+      <img class="zuc" src="img/zuc.gif" alt="squish">
+    </header>
     <div class="container">
-      <header>
-        <h2>Squishy Zucchini</h2>
-      </header>
       <form class="userForm">
         <label>Movie Name</label>
         <input id="title" type="text" placeholder="Enter your movie here">
@@ -18,10 +19,10 @@
         <input id="year" type="text" placeholder="Enter the year it was released">
         <label>Squishy Zucchini Rating</label>
         <input id="rating" type="text" placeholder="Enter rating">
-        <button type="submit" class="button">Add this!</button>
+        <button type="submit" class="squish-button">Squish me!</button>
       </form>
       <div class="output">
-        <h3>Your List</h3>
+        <p class="your-list">Your List:</p>
         <table id="table">
           <thead>
             <tr>
@@ -34,7 +35,7 @@
             <!-- DONT GO CHASING WATERFALLS -->
           </tbody>
         </table>
-        <button id="sort" type="button">Sort Results</button>
+        <button id="sort" type="button" class="squish-button">Sort Squishes</button>
       </div>
     </div>
   </body>

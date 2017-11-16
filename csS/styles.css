@@ -3,9 +3,25 @@
   font-family: sans-serif;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 header {
   background-color: rgba(59, 119, 52, 0.8);
   margin: 0;
+  height: 15%;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  overflow: auto;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
 }
 
 body {
@@ -15,8 +31,15 @@ body {
 .container {
   overflow: auto;
 }
+table {
+  margin: 30px auto;
+  width: 100%;
+}
 table, th, tr {
   border: 1px solid lightgray;
+}
+th {
+  font-weight: normal;
 }
 .userForm {
   background-color: rgba(255,255,255,.8);
@@ -27,8 +50,22 @@ table, th, tr {
   border-radius: 4px;
   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
 }
-
-.userForm label, .userForm input {
+button.squish-button {
+  color: white;
+  font-weight: bold;
+  font-size: 1.75em;
+  text-shadow: 1px 1px 1px black;
+  width: 50%;
+  border-radius: 64px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 5%;
+  box-shadow: 4px 4px 10px green;
+  background-image: url(../img/cuccy.jpg);
+  background-size: cover;
+}
+.userForm label, .userForm input, p.your-list {
   display: block;
   width: 80%;
   margin: 10px auto;
@@ -44,4 +81,16 @@ table, th, tr {
 
 input {
   padding: 12px;
+}
+
+img.squish {
+    float: left;
+    margin-right: 18px;
+    /* clear: right; */
+}
+
+img.zuc {
+    float: left;
+    display: block;
+    /* clear: right; */
 }

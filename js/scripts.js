@@ -3,8 +3,10 @@ function Movie (title, year, rating) {
   this.year = year;
   this.rating = rating;
 }
-var ratingsArray = [];
+
 var movies = [];
+
+
 // FRONT
 $(document).ready(function() {
   $(".userForm").submit(function(event) {
