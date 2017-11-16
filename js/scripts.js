@@ -28,7 +28,7 @@ $(document).ready(function() {
       }
       return 0;
     });
-    movies.forEach(function(mov){
+    movies.forEach(function(mov) {
       $("tbody#tlc").append("<tr><td>" + mov.title + "</td><td>" + mov.year + "</td><td>" + mov.rating + "%" + "</td></tr>");
     });
   });
